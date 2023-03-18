@@ -1,4 +1,5 @@
 import Register from "./pages/Register";
+import "./style.scss";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <input type="file" />
+          <button>Sign Up</button>
           <p>You do have an account ? Login</p>
         </form>
       </div>

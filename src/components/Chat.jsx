@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Chat() {
+const Chat = () => {
   return (
-    <div className='chat'>Chat</div>
+    <div className='chat'>
+      
+    </div>
   )
 }
 

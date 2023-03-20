@@ -117,7 +117,7 @@
       }
       .search {
         border-bottom: 1px solid grey;
-  
+
         .searchForm {
           padding: 10px;
 
@@ -133,7 +133,7 @@
           }
         }
       }
-  
+
       .userChat {
         padding: 10px;
         display: flex;
@@ -191,6 +191,13 @@
 
       .messages {
         background-color: #ddddf7;
+        padding: 10px;
+        height: calc(100% - 160px);
+      }
+
+      .input {
+        height: 50px;
+        background-color: white;
         padding: 10px;
       }
     }

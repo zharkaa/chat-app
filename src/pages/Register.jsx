@@ -41,6 +41,10 @@ const Register = () => {
               photoURL: downloadURL,
               email,
             });
+
+            await setDoc(doc(db, "userChats", res.user.uid), {});
+
+            
           });
         }
       );

@@ -2,10 +2,16 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "./context/AuthContext";
 
 import "./style.scss";
 
 function App() {
+
+  const { currentUser } = useContext(AuthContext);
+  console.log(currentUser);
+
   return (
     <Router>
       <Routes>

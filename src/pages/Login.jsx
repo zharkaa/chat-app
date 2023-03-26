@@ -33,7 +33,9 @@ const Login = () => {
             <input type="password" placeholder="Password" />
             <button>Sign in</button>
             {err && <span>Something went wrong!</span>}
-            <p>You don't have an account ? <Link to="/register">Register</Link></p>
+            <p>
+              You don't have an account ? <Link to="/register">Register</Link>
+            </p>
           </form>
         </div>
       </div>
